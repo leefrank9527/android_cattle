@@ -6,16 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.neat.cattle.MainLandView
+    <com.neat.cattle.MapImageView
         android:id="@+id/main_land"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-<!--    <ImageView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:src="@drawable/picture1"-->
-<!--        android:contentDescription="@string/my_image_desc" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>
